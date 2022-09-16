@@ -1,4 +1,4 @@
-package com.example.starminer_reborn;
+package feur.starminer_reborn;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
