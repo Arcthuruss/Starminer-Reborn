@@ -38,6 +38,7 @@ public class Starminer_Reborn {
         //comme dit le commentaire d'EnderIO, ici on enregistre tout comme ça tout est enregirtré (c'est pas la bonne def de register mais ça me fait rire
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        //feur git nan ?
 
 
         // Register the commonSetup method for modloading
