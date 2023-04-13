@@ -23,6 +23,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CAMELIA_FLOWER = registerBlock("camelia_flower",
             () -> new Block(BlockBehaviour.Properties.of(Material.PLANT).instabreak()), ModCreativeModeTab.STARMIER_TAB);
+    public static final RegistryObject<Block> ROSE_FLOWER = registerBlock("rose_flower",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PLANT).instabreak()), ModCreativeModeTab.STARMIER_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) { //WTF IS THIS FUCKING SHIT DOING
         RegistryObject<T> toReturn = BLOCKS.register(name, block);//bruh
