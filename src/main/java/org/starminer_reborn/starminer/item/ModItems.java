@@ -17,9 +17,7 @@ public class ModItems {
 
 
     // ici en dessous on va add tous les items
-    public static final RegistryObject<Item> CAMELIA = ITEMS.register("camelia", // là on crée l'item
-            () -> new Item(new Item.Properties().fireResistant().tab(ModCreativeModeTab.STARMIER_TAB))); // le dernier truc on dit qu'il se place dans l'onglet créatif personnalisé
-
+//e
 
 
     //euh je sais pas ce que ça fait ça

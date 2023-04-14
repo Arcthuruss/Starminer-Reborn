@@ -1,4 +1,5 @@
 {
-  "itemGroup.starminer" : "Starminer Reborn Items",
-  "item.starminer.camelia" : "Camelia"
+  "itemGroup.Starminer_Reborn" : "Starminer Reborn",
+  "block.starminer.rose_flower": "Rose",
+  "block.starminer.camelia_flower": "Camelia"
 }

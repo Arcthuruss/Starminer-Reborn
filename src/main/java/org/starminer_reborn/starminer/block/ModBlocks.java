@@ -21,8 +21,16 @@ public class ModBlocks {
     //ça ça dit a mc qu'on va foutre des blocks
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Starminer_Reborn.MOD_ID);
 
+
+    //en dessous on crée les bloques
     public static final RegistryObject<Block> CAMELIA_FLOWER = registerBlock("camelia_flower",
             () -> new Block(BlockBehaviour.Properties.of(Material.PLANT).instabreak()), ModCreativeModeTab.STARMIER_TAB);
+    public static final RegistryObject<Block> ROSE_FLOWER = registerBlock("rose_flower",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PLANT).instabreak()), ModCreativeModeTab.STARMIER_TAB);
+
+//ed
+
+    //j'ai aucune putain d'idée de ce qu'est le truc en dessous
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) { //WTF IS THIS FUCKING SHIT DOING
         RegistryObject<T> toReturn = BLOCKS.register(name, block);//bruh

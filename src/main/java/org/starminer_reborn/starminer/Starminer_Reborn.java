@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
+import org.starminer_reborn.starminer.block.ModBlocks;
 import org.starminer_reborn.starminer.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -37,8 +38,8 @@ public class Starminer_Reborn {
         //comme dit le commentaire d'EnderIO, ici on enregistre tout comme ça tout est enregirtré (c'est pas la bonne def de register mais ça me fait rire
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
-
+        //feur git nan ? quel fdp wtf aled
+//e
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
