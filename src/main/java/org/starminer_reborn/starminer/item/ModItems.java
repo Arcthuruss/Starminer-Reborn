@@ -17,7 +17,7 @@ public class ModItems {
 
 
     // ici en dessous on va add tous les items
-
+//e
 
 
     //euh je sais pas ce que ça fait ça

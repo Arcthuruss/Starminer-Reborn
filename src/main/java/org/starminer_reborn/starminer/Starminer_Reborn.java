@@ -39,7 +39,7 @@ public class Starminer_Reborn {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         //feur git nan ? quel fdp wtf aled
-
+//e
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
