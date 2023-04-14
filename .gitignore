@@ -1,4 +1,4 @@
-/.gradle/
+
 /build/
 
 /build.gradle
@@ -12,3 +12,4 @@
 /.gradle/7.5.1/fileHashes/
 /run/logs/2023-04-14-1.log.gz
 /run/logs/2023-04-14-2.log.gz
+/.gradle/
