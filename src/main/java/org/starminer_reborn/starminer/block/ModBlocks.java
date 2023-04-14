@@ -28,7 +28,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> ROSE_FLOWER = registerBlock("rose_flower",
             () -> new Block(BlockBehaviour.Properties.of(Material.PLANT).instabreak()), ModCreativeModeTab.STARMIER_TAB);
 
-//e
+//ed
 
     //j'ai aucune putain d'idée de ce qu'est le truc en dessous
 
